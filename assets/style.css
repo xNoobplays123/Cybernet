@@ -94,7 +94,7 @@ nav .fa{
         display: block;
     }
     .nav-links{
-        position: absolute;
+        position: fixed;
         background: #f44336;
         height: 100vh;
         width: 200px;
@@ -334,7 +334,7 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/network.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/internet.png);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -490,4 +490,5 @@ h3{
     margin-bottom: 17px;
     outline: none;
     border: 1px solid #ccc;
+    box-sizing: border-box;
 }
