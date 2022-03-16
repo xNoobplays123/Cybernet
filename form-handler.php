@@ -10,8 +10,8 @@ $email_subject = 'New FOrm Submission';
 
 $email_body = "User Name: $name.\n".
                 "User Email: $visitor_email.\n".
-                    "Subject: $subject.\n".
-                        "User Message: $message.\n".
+                  "Subject: $subject.\n".
+                    "User Message: $message.\n".
 
 $to = 'the-game-maker@outlook.com';
 
