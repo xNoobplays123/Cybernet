@@ -451,7 +451,7 @@ h3{
 .location{
     width: 80%;
     margin: auto;
-    padding: 80px 0;
+    padding: 60px 0;
 }
 .location iframe{
     width: 100%;
@@ -466,13 +466,13 @@ h3{
 }
 .contact-col div{
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    display: inline-table;
 }
 .contact-col div .fa{
     font-size: 28px;
     color: #f44336;
     margin: 10px;
-    margin-right: 30px;
 }
 .contact-col div p{
     padding: 0;
