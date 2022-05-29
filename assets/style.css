@@ -25,9 +25,12 @@ body {
 }
 
 .title {
-    margin-top: 50px;
     font-size: 36px;
     font-weight: 600;
+}
+
+.sub-header .title {
+    margin-top: 100px;
 }
 
 .facilities .title {
@@ -177,7 +180,7 @@ p {
 }
 
 .row {
-    margin-top: 5%;
+    margin-top: 3%;
     display: flex;
     justify-content: space-between;
 }
@@ -547,12 +550,15 @@ h3 {
     align-items: center;
     margin-bottom: 20px;
     display: inline-table;
+    padding-right: 46px;
+    padding-left: 10px;
 }
 
 .contact-col div .fa {
     font-size: 28px;
     color: #f44336;
     margin: 10px;
+    padding-left: 30px;
 }
 
 .contact-col div p {
